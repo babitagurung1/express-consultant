@@ -5,7 +5,7 @@ import enhance_client_image from "../../Images/Enhancing_client_experience.png"
 import customsoftware_image from "../../Images/Why_custom_software.png"
 const Blog = () => {
   return (
-    <div className='blog_outer paddingLeftRight cmn_margin'>
+    <div className='blog_outer paddingLeftRight cmn_margin' id='Blogs'>
         <div className='d-flex blog_content_outer'>
         <div>
         <h2 className='cmn_heading'>Grow your knowledge with us</h2>

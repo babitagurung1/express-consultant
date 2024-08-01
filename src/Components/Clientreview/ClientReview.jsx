@@ -5,7 +5,7 @@ import quatation_img from "../../Images/quatation.png"
 
 const ClientReview = () => {
   return (
-    <div className='cmn_radius cmn_margin paddingTopBottom paddingLeftRight'>
+    <div className='cmn_radius cmn_margin paddingTopBottom paddingLeftRight' id='Testimonals'>
         <h3 className='cmn_heading'>What Our Clients Say About Us​</h3>
         <p className='cmn_paragraph tools_paragraph'>Our clients' testimonials highlight the exceptional service and support we provide. Discover why they trust us as their preferred partner.​</p>
   <div className='row'>

@@ -15,7 +15,7 @@ import html from "../../Images/html.png"
 import aipine from "../../Images/Alpine.png"
 const TechnologyStack = () => {
   return (
-    <div className='tech_stack_container cmn_radius paddingTopBottom paddingLeftRight'>
+    <div className='tech_stack_container cmn_radius paddingTopBottom paddingLeftRight' id="Technology">
         <h3 className='cmn_heading'>Comprehensive Technology <br></br> Stack and Expertise</h3>
         <p className='cmn_paragraph tools_paragraph'>Showcasing our extensive range of advanced technologies and tools, expertly applied to deliver innovative and effective solutions for your projects.</p>
   

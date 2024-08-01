@@ -23,12 +23,12 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="nav_items">
-            <Nav.Link href="#home">Services</Nav.Link>
-            <Nav.Link href="#link">Technology</Nav.Link>
-            <Nav.Link href="#link">About Us</Nav.Link>
-            <Nav.Link href="#link">Testimonals</Nav.Link>
-            <Nav.Link href="#link">Blogs</Nav.Link>
-            <Nav.Link href="#link">Contact Us</Nav.Link>
+            <Nav.Link href="#Serives">Services</Nav.Link>
+            <Nav.Link href="#Technology">Technology</Nav.Link>
+            <Nav.Link href="#Aboutus">About Us</Nav.Link>
+            <Nav.Link href="#Testimonals">Testimonals</Nav.Link>
+            <Nav.Link href="#Blogs">Blogs</Nav.Link>
+            <Nav.Link href="#Contactus">Contact Us</Nav.Link>
             <button className='cmn_btn'>Request Quote</button>
             
           </Nav>

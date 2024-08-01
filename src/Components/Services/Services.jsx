@@ -10,7 +10,7 @@ import software_product_img from "../../Images/softwareproduct.png"
 
 const Services = () => {
   return (
-    <div className='services_container'>
+    <div className='services_container' id="Serives">
         <div className='d-flex justify-content-between quote_outer'>
             <div>
             <h3 className='cmn_heading'>A Comprehensive Range of  <br></br> Services Tailored to Your Needs</h3>

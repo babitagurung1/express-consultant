@@ -6,6 +6,7 @@ import SaaS_img from "../../Images/SaaS.jpg"
 
 import Travel_img from "../../Images/TourTravel.jpg"
 const Specializations = () => {
+
   return (
 
     <div className='specialization_container'>

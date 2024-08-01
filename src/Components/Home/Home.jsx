@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
     <div className='paddingLeftRight'>
-        <div className='home_container'>
+        <div className='home_container' id='#home'>
         <div className='row'>
             <div className='col-lg-6 col-md-12 col-sm-12'>
                 <h3 className='cmn_heading digital_world_heading'>We help global brands <br></br>develop digital world</h3>

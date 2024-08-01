@@ -6,7 +6,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const Contactus = () => {
   return (
-    <div className='contact_us_container paddingLeftRight cmn_margin'>
+    <div className='contact_us_container paddingLeftRight cmn_margin' id='Contactus'>
         <dov className="">
   <div className='row'>
     <div className='col-lg-6 col-sm-12 col-md-12'>
