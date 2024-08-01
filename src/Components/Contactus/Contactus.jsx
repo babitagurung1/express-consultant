@@ -46,7 +46,7 @@ const Contactus = () => {
             </div>
             <div className='form-group'>
                 <label>Message</label>
-                <textarea rows={5} className='form-control' type="text" placeholder='Briefly tell us about your project and current  goals.
+                <textarea rows={5} className='form-control mt-2' type="text" placeholder='Briefly tell us about your project and current  goals.
                 how can we help you ?'/>
             </div>
             <button className='cmn_btn mt-4'>Send Message</button>

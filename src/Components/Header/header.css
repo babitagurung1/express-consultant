@@ -34,7 +34,15 @@ span.navbar-brand {
 .navbar-nav{
     gap: 15px;
 }
-
+.nav_items.navbar-nav {
+    height: 70px;
+}
+.nav_items.navbar-nav a{
+    padding-top: 21px;
+}
+.nav_items.navbar-nav button {
+    margin-top: 13px;
+}
 @media screen and (max-width:991px){
     .navbar_outer.paddingLeftRight.container-fluid {
         padding-bottom: 20px;

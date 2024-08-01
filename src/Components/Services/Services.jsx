@@ -11,19 +11,21 @@ import software_product_img from "../../Images/softwareproduct.png"
 const Services = () => {
   return (
     <div className='services_container'>
-        <div className='d-flex justify-space-between quote_outer'>
+        <div className='d-flex justify-content-between quote_outer'>
             <div>
             <h3 className='cmn_heading'>A Comprehensive Range of  <br></br> Services Tailored to Your Needs</h3>
-            <p className='cmn_paragraph'>Delivering an extensive array of services to address all facets of your business requirements, ensuring tailored solutions with expertise and excellence.</p>
+            <p className='cmn_paragraph tools_paragraph'>Delivering an extensive array of services to address all facets of your business requirements, ensuring tailored solutions with expertise and excellence.</p>
             </div>
-            <button className='cmn_btn'>Get a quote</button>
+     <div>
+     <button className='cmn_btn'>Get a quote</button>
+     </div>
         </div>
         <div className='row'>
             <div className='col-lg-4 col-sm-12 col-md-6'>
                 <div className='service_card'>
                     <img src={testing_img}/>
                   <h3>Testing</h3>
-                  <p className='cmn_paragraph'>We offer comprehensive testing services to ensure your software is bug-free, reliable, and performs optimally under all conditions.</p>
+                  <p className='cmn_paragraph '>We offer comprehensive testing services to ensure your software is bug-free, reliable, and performs optimally under all conditions.</p>
                 </div>
             </div>
             <div className='col-lg-4 col-sm-12 col-md-6'>
