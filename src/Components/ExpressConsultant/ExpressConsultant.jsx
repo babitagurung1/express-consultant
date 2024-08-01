@@ -10,7 +10,7 @@ import { FaUsers } from "react-icons/fa6";
 const ExpressConsultant = () => {
   return (
     <div className='paddingLeftRight ExpressConsultant_outer cmn_margin'>
-        <div className='row'>
+        <div className='row align-items-center'>
             <div className='col-lg-6 col-sm-12 col-md-12'>
              <div className='position-relative'>
                 <img src={consultancy_img} className='' width="100%"/>

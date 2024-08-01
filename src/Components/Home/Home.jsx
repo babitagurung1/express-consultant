@@ -45,7 +45,7 @@ const Home = () => {
      <TechnologyStack/>
      <ExpressConsultant/>
      <ClientReview/>
-    <ExpressConsultant/>
+  
     <Blog/>
     
      <Contactus/>
