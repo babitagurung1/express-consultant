@@ -16,8 +16,7 @@ const Header = () => {
             <h3 className='express_heading'>
                 Express
                 <span className='consultant_heading'>Consultants</span>
-            </h3>
-                        
+            </h3>       
             </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
