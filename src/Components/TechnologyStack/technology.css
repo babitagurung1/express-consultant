@@ -1,0 +1,57 @@
+ul.technology_stack_tab.nav-tabs .nav-link.active{
+
+    font-weight: 700 !important;
+    color: #0a5094 !important;
+    border-bottom: 2px solid red;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+   
+}
+ul#uncontrolled-tab-example li button{
+    font-family: "Cabin";
+    font-size: 18px;
+    color: #868585;
+    font-weight: 400;
+    /* border: unset !important; */
+    padding-bottom: 8px;
+}
+ul.technology_stack.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+border-color: transparent !important;
+}
+.nav-link:focus-visible {
+    outline: 0;
+    box-shadow: unset !important;
+}
+.technology_content{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #81c1f8;
+    border-radius: 20px;
+    margin-bottom: 17px
+}
+.frontend_technology_list li p{
+    text-align: center;
+    font-weight: 600;
+    font-family: "Cabin";
+    color: #0a2647;
+    font-size: 17px;
+   
+}
+.tools_paragraph{
+    width: 54%;
+}
+.tech_stack_container{
+
+    margin-top: 6rem;
+}
+ul.frontend_technology_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 0px;
+    padding-top: 35px;
+}

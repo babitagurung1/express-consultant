@@ -1,0 +1,57 @@
+
+.cmn_heading {
+    color: #0A2647;
+    font-family: "Cabin", Sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+   
+}
+.digital_world_heading{
+    padding-top: 8rem;
+}
+.services_btn_outer{
+    margin-top: 40px;
+}
+.hero_bg{
+    height: 500px;
+    width: 450px;
+}
+
+.experience_heading{
+    font-size: 36px;
+  background: #08539c;
+  color: #fff;
+  padding: 9px 32px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 700;
+  font-family: "Cabin", Sans-serif;
+  width: 234px;
+  position: absolute;
+  top: auto;
+  left: 104px;
+  bottom: 6rem;
+}
+.home_container{
+    padding-top: 4rem;
+}
+.triangle_img{
+    transform: translate(0px, 77px);
+}
+.herobg_outer {
+    position: relative;
+}
+@media screen and  (max-width: 1600px) {
+    .cmn_heading {
+        font-size: 40px;
+        line-height: 52px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .cmn_heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    
+}

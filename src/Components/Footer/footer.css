@@ -1,0 +1,39 @@
+.footer_container{
+    background-color:#1b1d21;
+
+}
+.footer_inner_content{
+    padding: 36px 0px;
+}
+.express_logo{
+    height: auto;
+    width: 100%;
+}
+ul.footer_info_list li h3{
+color:#FFFFFFA6
+}
+.footer_container{
+    border-bottom: 1px solid gray ;
+    padding-bottom: 30px;
+}
+ul.footer_info_list li svg{
+    color:white;
+}
+ul.blog_lists{
+    border-left: 1px solid gray;
+    padding-left: 20px !important;
+}
+.footer_logo_outer{
+    border-right: 1px solid gray;
+    padding-right: 30px;
+}
+.copy_right_title{
+    color:#FFFFFFA6;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 25px;
+    border-top: 1px solid gray;
+}

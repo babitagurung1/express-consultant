@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.cmn_btn{
+  background-color: #0971d3;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0px 25px;
+  height: 45px;
+  border: 2px solid transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cmn_btn:hover{
+  border: 2px solid #0971d3;
+  background-color: white;
+  color: #0971d3;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cmn_paragraph{
+  color: #294867;
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.express_btn{
+  height: 45px;
+    text-align: center;
+    
+    padding: 0px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+    border: 2px solid #0971d3;
+    font-size: 14px;
+    color: #0971d3;
+    background-color: white;
+}
+.express_btn:hover{
+  background-color: #0971d3;
   color: white;
 }
+.paddingTopBottom {
+  padding-top: 90px;
+  padding-bottom: 90px;
 
-.App-link {
-  color: #61dafb;
+}
+.cmn_radius{
+  border-radius: 80px;
+  box-shadow: 5px 5px 12px 5px #edecec;
+
+}
+.cmn_margin{
+  margin-top: 6rem;
+}
+ul{
+  list-style-type: none;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1440px) {
+  .cmn_paragraph {
+      font-size: 16px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 1399px) {
+  .paddingLeftRight{
+      padding-left: 60px !important;
+      padding-right: 60px !important;
   }
+  .paddingTopBottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+}
 }

@@ -1,0 +1,37 @@
+.consultancy_content_outer img{
+    height: 44px;
+    width: 44px;
+}
+.consultancy_content_outer h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.consultancy_content_outer{
+    width: 100%;
+}
+.client_count {
+    position: absolute;
+    bottom: 29px;
+    right: 65px;
+    backdrop-filter: blur(27px);
+    -webkit-backdrop-filter: blur(27px);
+    background: hsla(0, 0%, 100%, 0.1);
+    border-radius: 30px;
+    z-index: 1;
+    border: 1px solid #fff;
+    padding: 20px;
+    left: auto;
+}
+.business_consulting_inner_content{
+    padding: 0px 23px;
+}
+.client_count h3,svg{
+font-size:40px
+}
+.client_count h6{
+    color: #0A2647;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}

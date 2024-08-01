@@ -1,0 +1,36 @@
+div#basic-navbar-nav{
+    justify-content: end !important;
+}
+.express_heading{
+    font-size: 34px;
+    line-height: 32px;
+    color: #0a264a;
+    display: flex;
+    text-decoration: unset;
+    flex-direction: column;
+    margin-bottom: 0px !important;
+}
+span.navbar-brand {
+    padding: 0px !important;
+}
+.nav_items a{
+    color: #0a2647;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+}
+.nav_items a:hover{
+    background: #eaf7fc;
+    border-bottom: 4px solid #1584e2;
+    color: rgba(0, 0, 0, .7);
+}
+.consultant_heading{
+    font-size: 20px;
+    line-height: 22px;
+}
+.navbar_wrapper{
+    box-shadow: 0px 2px 3px 0px rgb(10 38 71 / 25%);
+    padding: 0 !important;
+}
+.navbar-nav{
+    gap: 15px;
+}

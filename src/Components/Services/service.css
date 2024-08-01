@@ -1,0 +1,25 @@
+.services_container{
+    margin-top: 5rem;
+}
+.service_card{
+    padding: 30px;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+    height: 100%;
+}
+.service_card h3{
+    font-family: "Cabin", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color:#0a2647;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.service_card:hover {
+    border-color: #0971d3;
+    background: linear-gradient(rgb(107 187 255 / 5%), rgb(21 132 226 / 3%));
+}
+.load_more_btn_outer{
+    padding-top: 3rem;
+}

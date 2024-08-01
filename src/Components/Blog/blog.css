@@ -1,0 +1,27 @@
+.blog_content_outer{
+    display: flex;
+    justify-content: space-between;
+}
+.blog_footer_outer {
+    padding: 14px 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #c1c1c1;
+}
+.blog_author img{
+    height: 59px;
+    width: 59px;
+}
+.blog_author h3,h6{
+color: #212529;
+}
+.blog_imageouter{
+    border-radius: 12px;
+    overflow: hidden;
+}
+.blog_heading{
+    font-size: 24px;
+    color: #0a2647;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
