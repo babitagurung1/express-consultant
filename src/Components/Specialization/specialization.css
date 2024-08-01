@@ -65,3 +65,18 @@
     visibility: visible !important;
     transform: translateX(0px);
 } */
+@media screen and (max-width:991px){
+  .specialization_container {
+      margin-top: 24px;
+  }
+  .industry_slide{
+    margin-top: 12px;
+  }
+  .express_consultant_paragraph{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:767px){
+  
+}

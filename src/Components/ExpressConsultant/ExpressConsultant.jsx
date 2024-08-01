@@ -31,7 +31,7 @@ const ExpressConsultant = () => {
                     helping businesses achieve their technological and strategic goals. Our experienced team of professionals works tirelessly to deliver innovative solutions that drive growth and efficiency. Since our inception, we have been committed to providing top-notch services that cater to the unique needs of each client,
                      ensuring they stay ahead in an ever-evolving digital landscape.</p>
                 </div> 
-                <div className='d-flex'>
+                <div className='d-flex consultancy_content_wrapper'>
                  <div className='d-flex gap-2 consultancy_content_outer'>
                     <img src={commitment_img}/>
                     <div>
@@ -47,7 +47,7 @@ const ExpressConsultant = () => {
                     </div>
                  </div>
                  </div>
-                 <div className='d-flex'>
+                 <div className='d-flex consultancy_content_wrapper'>
                  <div className='d-flex gap-2 consultancy_content_outer'>
                     <img src={integrity_img} />
                     <div>

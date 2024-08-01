@@ -38,3 +38,28 @@
     margin-top: 1rem;
 
 }
+@media screen and (max-width:991px){
+    .testimonal_card{
+     margin-top: 12px;
+    }
+    
+   }
+
+   @media screen and (max-width:767px){
+    .client_info_outer h3 {
+        font-size: 21px;
+   }
+   .img_outer img{
+    height: 60px;
+    width: 60px;
+   }
+   .client_info_outer h6 {
+    font-size: 14px;
+   }
+   .client_quote{
+    padding: 20px
+   }
+   .testimonal_card{
+    height: unset;
+   }
+}

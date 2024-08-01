@@ -46,3 +46,11 @@ ul.contact_info_list{
 .form-group textarea::placeholder{
     color: #959595;
 }
+
+@media screen and (max-width:767px){
+    .contact_us_form_outer {
+        padding: 20px;
+        border-radius: 21p
+    }
+    
+}

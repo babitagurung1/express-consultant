@@ -56,6 +56,10 @@ ul{
   list-style-type: none;
   
 }
+.paddingLeftRight{
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
 
 @media (max-width: 1440px) {
   .cmn_paragraph {
@@ -73,3 +77,18 @@ ul{
     
 }
 }
+@media screen and  (max-width: 767px) {
+  .paddingLeftRight{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .cmn_radius {
+    border-radius: 40px
+  }
+  .cmn_margin {
+    margin-top: 4rem;
+}
+.cmn_paragraph {
+  font-size: 14px;
+}
+ }

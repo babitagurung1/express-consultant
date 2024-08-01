@@ -35,3 +35,29 @@ font-size:40px
     font-size: 20px;
     font-weight: 700;
 }
+@media screen and (min-width:1800px){
+    .client_count{
+        width: 310px;
+        right: 126px;
+    }
+}
+@media screen and (min-width:1500px){
+    .client_count{
+        right: 126px;
+    }
+}
+@media screen and (max-width:767px) {
+    div.consultancy_content_wrapper{
+        display: block !important;
+    }
+    .client_count h3, svg {
+        font-size: 33px;
+    }
+    .client_count{
+        padding: 10px;
+
+    }
+    .client_count h6 {
+        font-size: 14px;
+    }
+}

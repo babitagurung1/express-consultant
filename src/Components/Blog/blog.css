@@ -25,3 +25,16 @@ color: #212529;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+@media screen and (max-width:991px){
+    .blog_content_outer{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:767px){
+    .blog_heading {
+        font-size: 22px;
+    }
+    .blog_footer_outer {
+        flex-wrap: wrap;
+    }
+}

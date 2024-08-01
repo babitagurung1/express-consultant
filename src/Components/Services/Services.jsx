@@ -11,7 +11,7 @@ import software_product_img from "../../Images/softwareproduct.png"
 const Services = () => {
   return (
     <div className='services_container'>
-        <div className='d-flex justify-spacebetween'>
+        <div className='d-flex justify-space-between quote_outer'>
             <div>
             <h3 className='cmn_heading'>A Comprehensive Range of  <br></br> Services Tailored to Your Needs</h3>
             <p className='cmn_paragraph'>Delivering an extensive array of services to address all facets of your business requirements, ensuring tailored solutions with expertise and excellence.</p>

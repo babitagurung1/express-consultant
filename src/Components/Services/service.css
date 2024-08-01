@@ -23,3 +23,17 @@
 .load_more_btn_outer{
     padding-top: 3rem;
 }
+@media screen and (max-width:991px){
+   .quote_outer{
+    flex-wrap: wrap;
+   }
+   .service_card{
+    margin-top: 12px;
+   }
+  }
+  @media screen and (max-width:991px){
+    
+    .service_card{
+        height: unset;
+    }
+  }

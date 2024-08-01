@@ -55,3 +55,12 @@ ul.frontend_technology_list {
     padding-left: 0px;
     padding-top: 35px;
 }
+
+@media screen and (max-width:767px){
+    .tech_stack_container {
+        margin-top: 4rem;
+    }
+    .tools_paragraph {
+        width:100%;
+    }
+}

@@ -34,3 +34,9 @@ span.navbar-brand {
 .navbar-nav{
     gap: 15px;
 }
+
+@media screen and (max-width:991px){
+    .navbar_outer.paddingLeftRight.container-fluid {
+        padding-bottom: 20px;
+    }
+}
