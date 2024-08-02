@@ -9,7 +9,7 @@ const Specializations = () => {
 
   return (
 
-    <div className='specialization_container'>
+    <div className='specialization_container cmn_margin'>
         <h3 className='cmn_heading'>Our industry <br></br>  Specialization</h3>
         <p className='cmn_paragraph express_consultant_paragraph'>Express Consultants excels through the synergy of our expert teams and loyal clients, ensuring exceptional productivity, customer satisfaction, and respect for achievements at every level.</p>
     <div className='row mt-5'>

@@ -9,7 +9,7 @@ const ClientReview = () => {
         <h3 className='cmn_heading'>What Our Clients Say About Us​</h3>
         <p className='cmn_paragraph tools_paragraph'>Our clients' testimonials highlight the exceptional service and support we provide. Discover why they trust us as their preferred partner.​</p>
   <div className='row'>
-    <div className='col-lg-4 col-sm-12 col-md-6'>
+    <div className='col-lg-4 col-sm-12 col-md-6 pt-3'>
         <div className='testimonal_card'>
             <div className='d-flex gap-2 align-items-center'>
                 <div className='img_outer'>
@@ -29,7 +29,7 @@ const ClientReview = () => {
             </div>
         </div>
     </div>
-    <div className='col-lg-4 col-sm-12 col-md-6'>
+    <div className='col-lg-4 col-sm-12 col-md-6 pt-3'>
         <div className='testimonal_card position-relative'>
             <div className='d-flex gap-2 align-items-center'>
                 <div className='img_outer'>
@@ -49,7 +49,7 @@ const ClientReview = () => {
             </div>
         </div>
     </div>
-    <div className='col-lg-4 col-sm-12 col-md-6'>
+    <div className='col-lg-4 col-sm-12 col-md-6 pt-3'>
         <div className='testimonal_card position-relative'>
             <div className='d-flex gap-2 align-items-center'>
                 <div className='img_outer'>

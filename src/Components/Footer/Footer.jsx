@@ -3,6 +3,9 @@ import logo from "../../Images/logo1.png"
 import "./footer.css"
 import { IoCallOutline, IoLocationOutline } from 'react-icons/io5'
 import { MdMailOutline } from 'react-icons/md'
+import { FaLock } from "react-icons/fa";
+import { PiNotebookBold } from "react-icons/pi";
+import { PiNotebookFill } from "react-icons/pi";
 const Footer = () => {
   return (
     <div className='footer_container paddingLeftRight cmn_margin'>
@@ -31,14 +34,14 @@ const Footer = () => {
         <div className='col-lg-3 col-sm-12 col-md-6'>
         <ul className='contact_info_list footer_info_list blog_lists'>
                 <li className='d-flex gap-3 align-items-center'>
-                <IoCallOutline />
+                <PiNotebookFill />
                     <h3>Blogs</h3>
                 </li>
                 <li className='d-flex gap-3 align-items-center mt-3'>
-                <MdMailOutline />
+                <PiNotebookBold />
                     <h3>Terms and Conditions</h3></li>
                 <li className='d-flex gap-3 align-items-center mt-3'>
-                <IoLocationOutline />
+                <FaLock />
                 <h3>Privacy policy</h3></li>
             </ul>
         </div>
